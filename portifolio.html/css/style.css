@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background: #0d0d0d;
+    color: #777777;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    height: 100%;
+    line-height: 1.5;
+    width: 100%;
+    word-spacing: 1px;
+    overflow-x: hidden;
+}
+body .imagens{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+
+header{
+    height: 80px;
+    
+    width: 100%;
+    text-align: center;
+}
+
+#logo{
+    width: 50%;
+   
+}
+ 
+#logo img{
+    height: 120px;
+    margin-left: 30px;
+}
+
+
+h1{
+    text-align: center;
+
+}
+
+nav{
+    height: 40px;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    margin-left: 1.2vw;
+}
+
+nav ul{
+    list-style: none;
+    margin: 5px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 1px;
+    color: #c4c2c2;
+
+}
+nav ul li a:hover{
+    background-color: black;
+}
+
+main{
+    padding: 10px 0 10px 0;
+   
+    width: 100%;
+}
+
+
+.imagens{
+    width: 100%;
+    margin: 0.5px;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+
+.imagens img{
+    width: 100%;
+    
+    padding: 0.5vw;
+    
+ }
+
+.imagens img:hover{
+    background-color:#9b969650;
+    transition-delay: 0.2s;
+    
+    
+}
+
+#center{   
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+#center p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
